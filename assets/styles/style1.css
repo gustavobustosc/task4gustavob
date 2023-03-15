@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 15;
+}
+
+body{
+    height: 120vh;
+    width:100vw;
+    border: solid black;
+    background-image: url(/assets/images/fondo1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.ab2{  /*se elimina el segundo acceso a about us que solo se exige en style2*/
+    display:none
+}
+
+nav{
+    display:flex;
+    height: 10vh;
+    justify-content:space-between;
+    align-content: center;
+    border-bottom: solid black 2px;
+    flex-wrap: wrap;
+    position: sticky;
+    top:0;
+    background-color:rgb(252, 236, 215);
+}
+
+nav>div>a{
+    text-decoration: none;
+    margin:0.5rem;
+    font-family: arial;
+    font-size: larger;
+    color:orange;
+    background-color:rgb(230, 224, 187);
+    padding: 10px;
+    border-radius:5px;
+    box-shadow:  8px 8px 16px #29272b,
+    -8px -8px 16px #3b393d;
+}
+
+nav>div{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav>div>a:hover{
+    transform:scale(1.3);
+    transition-duration: 0.5s;
+}
+
+
+.logo{
+    height:3rem ;
+    margin-right:2rem;
+}
+
+header{
+    height:15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tituls2{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size:xx-large;
+    color: darkblue;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size:x-large;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    height: 70vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ii1{
+    height: 17rem;
+    width: 35rem;
+    border-radius:15px;
+}
+
+.ii2{
+    height:15rem;
+    width:15rem;
+    border-radius:15px;
+}
+
+.p1i2i{
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pi1{
+    display: flex;
+    height: 15rem;
+    width: 15rem;
+    align-items: center;
+    color: black;
+    font-family: arial;
+    font-size: larger;
+}
+/*comienza about*/
+.ip1a{
+    display: flex;
+    width:35rem ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ip2a{
+    display: flex;
+    width:35rem ;
+    justify-content: space-between;
+}
+
+.ip3a{
+    display: flex;
+    width:35rem ;
+    justify-content: space-between;
+}
+
+.ia1{
+    height:10rem;
+    width: 10rem;
+    border-radius:15px;
+}
+
+.pa1{
+    display: flex;
+    height: 10rem;
+    width: 20rem;
+    align-items: center;
+    color: black;
+    font-family: arial;
+    font-size: larger;
+}
+
+
+.ia2{
+    height:10rem;
+    width: 10rem;
+    border-radius:15px;
+}
+
+.pa2{
+    display: flex;
+    height: 10rem;
+    width: 20rem;
+    align-items: center;
+    color: black;
+    font-family: arial;
+    font-size: larger;
+}
+
+.ia3{
+    height:10rem;
+    width: 10rem;
+    border-radius:15px;
+}
+
+.pa3{
+    display: flex;
+    height: 10rem;
+    width: 20rem;
+    align-items: center;
+    color: black;
+    font-family: arial;
+    font-size: larger;
+}
+/*comienza contact*/
+.ic1{
+    height: 20rem;
+    width: 35rem;
+    border-radius:15px;
+}
+
+.pc1{  
+    width:35rem;
+    align-items: center;
+    color: black;
+    font-family: arial;
+    font-size: larger;
+
+}
+
+.matex{
+    width:35rem;
+    display: flex;
+    font-family: arial;
+    font-size: larger;
+    justify-content:space-between;
+}
+
+.tel{
+    color: black;
+    text-decoration: none;
+}
+
+.mail{
+    text-decoration: underline;
+    color:  black;
+}
+/*comiensa schedule*/
+.mains{
+    height: 60vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, tr, th, td{
+    border:solid rgb(27, 21, 21) 4px;
+    border-collapse: collapse;
+}
+
+table{
+    text-align: center;
+    background-color:rgb(248, 241, 227);
+    height: 25rem;
+    width: 45rem;
+    font-family: arial;
+    font-size: large;
+    color: black;
+}
+thead{
+    font-family: arial;
+    font-size: larger;
+    height:20%;
+    width:100% ;
+}
+
+tbody{
+    height:80%;
+    width:100%;
+}
+
+td{
+    height:25%;
+    width:25%;
+}
+
+.co1,.co2,.co3,.co4{
+    width:25%;
+    height:100;
+}
+/*aqui comienza benefits*/
+.mainb{
+    display: flex;
+    width: 100vw;
+    height:70vh;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.listab{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    font-family: arial;
+    font-size: larger;
+}
+
+.imb22{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ib1{
+    height: 14rem;
+    width: 19rem;
+    border-radius:30px;
+}
+
+.ib2{
+    height: 14rem;
+    width: 19rem;
+    border-radius:30px;
+}
+
+.tit1{
+ font-size:larger;  
+}
+
+.bordes{
+    font-size: large;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
