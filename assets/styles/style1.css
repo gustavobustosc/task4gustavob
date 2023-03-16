@@ -323,9 +323,17 @@ td{
 .bordes{
     font-size: large;
     margin-top: 10px;
-
 }
+/*comienza raffle*/
 
+.ir1{
+    width:20rem;
+    height: 20rem;
+}
+.ir2{
+    width:20rem;
+    height:20rem;
+}
 
 
 
